@@ -1,0 +1,16 @@
+개인repo
+https://github.com/JiWoong-J/repo.git
+
+cd->경로바꾸기
+cd 바꾸고 싶은경로
+ls--> 현재 접근 가능한 경로 표시
+
+붙혀넣기 shift + insert
+자동완성 tab
+
+git init
+현재 폴더를 로컬 레퍼지토리화 시키겠습니다.
+//프로젝트 맨처음 시작
+
+git config --global user.name 사용자이름
+git config -- glbal user.email 사용자 이메일
