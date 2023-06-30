@@ -1,16 +1,32 @@
 개인repo
 https://github.com/JiWoong-J/repo.git
-
+0경로설정
 cd->경로바꾸기
 cd 바꾸고 싶은경로
 ls--> 현재 접근 가능한 경로 표시
-
 붙혀넣기 shift + insert
 자동완성 tab
 
-git init
+1. git init
 현재 폴더를 로컬 레퍼지토리화 시키겠습니다.
 //프로젝트 맨처음 시작
 
+2. 사용자 정보 등록
 git config --global user.name 사용자이름
 git config -- glbal user.email 사용자 이메일
+
+3. get remote add origin 원격저장소주소(레퍼지토리주소)
+
+4. git add .
+--> 커밋 준비
+--> . : 현재 경로에 있던
+
+5. git commit -m "커밋메시지"
+--> 커밋진행 : 로컬레퍼지토리에 반영
+
+6. git push origin master 
+--> 푸쉬를 진행하겠습니다
+--> 원격저장소로 커밋한 내용을 올려주세요
+
+// 입력정보확인
+git config --global --list 
